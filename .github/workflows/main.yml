@@ -1,5 +1,7 @@
 name: Ganerate Podcast Feeds
-on: [push]
+on:
+  push:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
